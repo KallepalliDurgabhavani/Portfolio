@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --ink:   #0d0d0d;
+    --ink2:  #1a1a1a;
+    --fog:   #f7f6f4;
+    --fog2:  #efefec;
+    --fog3:  #e8e7e3;
+    --gold:  #b8860b;
+    --gold2: #d4a017;
+    --muted: #6b6963;
+    --bdr:   #e0deda;
+    --white: #ffffff;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--fog);
+    color: var(--ink);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+/* ── Skill bar animation ── */
+.skill-bar-fill {
+  transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ── Accessibility: prefers-reduced-motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .skill-bar-fill {
+    transition: none !important;
+  }
+}
