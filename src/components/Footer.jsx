@@ -8,7 +8,7 @@ export default function Footer({ navigate }) {
           {personal.name}
         </div>
         <p className="text-[0.75rem] tracking-wider" style={{ color: 'var(--muted)' }}>
-          © {new Date().getFullYear()} · Built with React &amp; Tailwind CSS · Deployed on Vercel
+          © {new Date().getFullYear()} {personal.name}. All rights reserved.
         </p>
         <div className="flex gap-6">
           {[

@@ -92,8 +92,8 @@ export const projects = [
 export const certifications = [
   { icon: '☁', title: 'AWS Developer Associate',       org: 'Amazon Web Services',                    year: '2025' },
   { icon: '', title: 'Redhat certified system administrator',                      org: 'Redhat',                         year: '2024' },
-  { icon: '', title: 'IT specialist Certification in HTML and CSS',    org: 'PearsonVue',                         year: '2024' },
-  { icon: '', title: 'IT specialist Certification in Python',               org: 'PearsonVue',                  year: '2025' },
-  { icon: '',  title: 'IT specialist Certification in JAVA',       org: 'PearsonVue',     year: '2025' },
+  { icon: '', title: 'IT specialist Certification in HTML and CSS',    org: 'PearsonVue',                         year: '2023' },
+  { icon: '', title: 'IT specialist Certification in Python',               org: 'PearsonVue',                  year: '2023' },
+  { icon: '',  title: 'IT specialist Certification in JAVA',       org: 'PearsonVue',     year: '2024' },
   
 ]
