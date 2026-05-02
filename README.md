@@ -3,7 +3,7 @@
 A fully responsive, animated personal portfolio website built from scratch with React, Vite, Tailwind CSS, and Framer Motion.
 
 **Author:** Kallepalli Durga Bhavani  
-**Live URL:** _Add your Vercel/Netlify URL here after deployment_
+**Live URL:** https://portfolio-coral-gamma-47.vercel.app/
 
 ---
 
@@ -15,7 +15,7 @@ A fully responsive, animated personal portfolio website built from scratch with 
 | Styling       | Tailwind CSS v3                   |
 | Animations    | Framer Motion, react-scroll-parallax |
 | Fonts         | Cormorant Garamond + Inter (Google Fonts) |
-| Deployment    | Vercel / Netlify                  |
+| Deployment    | Vercel                            |
 
 ---
 
@@ -43,7 +43,7 @@ A fully responsive, animated personal portfolio website built from scratch with 
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/portfolio.git
+git clone https://github.com/KallepalliDurgabhavani/portfolio.git
 cd portfolio
 
 # 2. Install dependencies
@@ -85,16 +85,4 @@ Edit that one file and everything updates automatically.
 3. Framework: **Vite** — Vercel auto-detects it
 4. Click **Deploy**
 
-### Netlify
-1. Push to GitHub
-2. Go to [netlify.com](https://netlify.com) → Add new site → Import from Git
-3. Build command: `npm run build`  
-4. Publish directory: `dist`
-5. Click **Deploy**
 
----
-
-## License
-
-MIT — free to use and adapt for personal portfolio purposes.
-"# Portfolio" 
